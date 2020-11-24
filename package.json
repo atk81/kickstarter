@@ -1,0 +1,34 @@
+{
+  "name": "kickstar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "dev": "node server.js",
+    "build": "next build"
+  },
+  "keywords": [
+    "'ethereum'"
+  ],
+  "author": "'ashutosh'",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "ganache-cli": "^6.12.1",
+    "mocha": "^8.2.1",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
+    "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.3.0"
+  }
+}
